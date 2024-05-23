@@ -15,10 +15,11 @@ const gS    = 2.0023193043617
 const c     = CODATA2018.SpeedOfLightInVacuum.val
 const h     = CODATA2018.h.val
 const ħ     = CODATA2018.ħ.val
-const μ_B   = CODATA2018.μ_B.val
-const ε_0   = CODATA2018.ε_0.val
-const μ_0   = CODATA2018.μ_0.val
+const μB   = CODATA2018.μ_B.val
+const ε0   = CODATA2018.ε_0.val
+const μ0   = CODATA2018.μ_0.val
+const kB   = CODATA2018.BoltzmannConstant.val
 
-export c, gS, μ_B, h, ħ, ε_0, μ_0 #, μX
+export c, gS, μB, h, ħ, ε0, μ0, kB #, μX
 
 end
